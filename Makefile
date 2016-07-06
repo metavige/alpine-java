@@ -1,4 +1,4 @@
-IMAGE=metavige/alpine-java
+IMAGE=alpine-java:8u91
 
 build:
 	docker build -t ${IMAGE} .
